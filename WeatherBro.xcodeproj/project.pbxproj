@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		DB72471C248218D700BC4CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72471B248218D700BC4CB6 /* AppDelegate.swift */; };
 		DB72471E248218D700BC4CB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72471D248218D700BC4CB6 /* SceneDelegate.swift */; };
-		DB724720248218D700BC4CB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72471F248218D700BC4CB6 /* ViewController.swift */; };
-		DB724723248218D700BC4CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB724721248218D700BC4CB6 /* Main.storyboard */; };
 		DB724725248218D900BC4CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB724724248218D900BC4CB6 /* Assets.xcassets */; };
 		DB724728248218D900BC4CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB724726248218D900BC4CB6 /* LaunchScreen.storyboard */; };
+		DB72473324821B1800BC4CB6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72473124821B1800BC4CB6 /* HomeVC.swift */; };
+		DB72473424821B1800BC4CB6 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB72473224821B1800BC4CB6 /* HomeVC.xib */; };
+		DB72473724821D6A00BC4CB6 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72473624821D6A00BC4CB6 /* BaseController.swift */; };
+		DB72473A2482202B00BC4CB6 /* AnalogClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7247392482202B00BC4CB6 /* AnalogClockView.swift */; };
+		DB72473E2482276000BC4CB6 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72473D2482276000BC4CB6 /* AppConstant.swift */; };
+		DB7247412482291500BC4CB6 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7247402482291500BC4CB6 /* UIView+Extensions.swift */; };
+		DB72474324822B5100BC4CB6 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72474224822B5100BC4CB6 /* UIColor+Extensions.swift */; };
+		DB72474524822C3000BC4CB6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72474424822C3000BC4CB6 /* Colors.swift */; };
+		DB7247482482356900BC4CB6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7247472482356900BC4CB6 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB724718248218D700BC4CB6 /* WeatherBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB72471B248218D700BC4CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB72471D248218D700BC4CB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB72471F248218D700BC4CB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB724722248218D700BC4CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB724724248218D900BC4CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB724727248218D900BC4CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB724729248218D900BC4CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB72473124821B1800BC4CB6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		DB72473224821B1800BC4CB6 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		DB72473624821D6A00BC4CB6 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		DB7247392482202B00BC4CB6 /* AnalogClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClockView.swift; sourceTree = "<group>"; };
+		DB72473D2482276000BC4CB6 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		DB7247402482291500BC4CB6 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		DB72474224822B5100BC4CB6 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		DB72474424822C3000BC4CB6 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DB7247472482356900BC4CB6 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,86 @@
 		DB72471A248218D700BC4CB6 /* WeatherBro */ = {
 			isa = PBXGroup;
 			children = (
+				DB72473F2482290400BC4CB6 /* Extentsion */,
+				DB72473B2482272700BC4CB6 /* Helper */,
+				DB7247382482200400BC4CB6 /* Components */,
+				DB72472F24821AFB00BC4CB6 /* Controlers */,
 				DB72471B248218D700BC4CB6 /* AppDelegate.swift */,
 				DB72471D248218D700BC4CB6 /* SceneDelegate.swift */,
-				DB72471F248218D700BC4CB6 /* ViewController.swift */,
-				DB724721248218D700BC4CB6 /* Main.storyboard */,
 				DB724724248218D900BC4CB6 /* Assets.xcassets */,
 				DB724726248218D900BC4CB6 /* LaunchScreen.storyboard */,
 				DB724729248218D900BC4CB6 /* Info.plist */,
 			);
 			path = WeatherBro;
+			sourceTree = "<group>";
+		};
+		DB72472F24821AFB00BC4CB6 /* Controlers */ = {
+			isa = PBXGroup;
+			children = (
+				DB72473524821D5700BC4CB6 /* BaseController */,
+				DB72473024821B0400BC4CB6 /* Home */,
+			);
+			path = Controlers;
+			sourceTree = "<group>";
+		};
+		DB72473024821B0400BC4CB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DB72473124821B1800BC4CB6 /* HomeVC.swift */,
+				DB72473224821B1800BC4CB6 /* HomeVC.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DB72473524821D5700BC4CB6 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				DB72473624821D6A00BC4CB6 /* BaseController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		DB7247382482200400BC4CB6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DB7247392482202B00BC4CB6 /* AnalogClockView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DB72473B2482272700BC4CB6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DB7247462482355500BC4CB6 /* Utils */,
+				DB72473C2482275100BC4CB6 /* Constant */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DB72473C2482275100BC4CB6 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				DB72473D2482276000BC4CB6 /* AppConstant.swift */,
+				DB72474424822C3000BC4CB6 /* Colors.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		DB72473F2482290400BC4CB6 /* Extentsion */ = {
+			isa = PBXGroup;
+			children = (
+				DB7247402482291500BC4CB6 /* UIView+Extensions.swift */,
+				DB72474224822B5100BC4CB6 /* UIColor+Extensions.swift */,
+			);
+			path = Extentsion;
+			sourceTree = "<group>";
+		};
+		DB7247462482355500BC4CB6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DB7247472482356900BC4CB6 /* Utilities.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB724728248218D900BC4CB6 /* LaunchScreen.storyboard in Resources */,
+				DB72473424821B1800BC4CB6 /* HomeVC.xib in Resources */,
 				DB724725248218D900BC4CB6 /* Assets.xcassets in Resources */,
-				DB724723248218D700BC4CB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +223,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB724720248218D700BC4CB6 /* ViewController.swift in Sources */,
+				DB7247412482291500BC4CB6 /* UIView+Extensions.swift in Sources */,
+				DB72474524822C3000BC4CB6 /* Colors.swift in Sources */,
+				DB72473324821B1800BC4CB6 /* HomeVC.swift in Sources */,
 				DB72471C248218D700BC4CB6 /* AppDelegate.swift in Sources */,
+				DB72474324822B5100BC4CB6 /* UIColor+Extensions.swift in Sources */,
+				DB7247482482356900BC4CB6 /* Utilities.swift in Sources */,
+				DB72473724821D6A00BC4CB6 /* BaseController.swift in Sources */,
+				DB72473E2482276000BC4CB6 /* AppConstant.swift in Sources */,
+				DB72473A2482202B00BC4CB6 /* AnalogClockView.swift in Sources */,
 				DB72471E248218D700BC4CB6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +239,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB724721248218D700BC4CB6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB724722248218D700BC4CB6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB724726248218D900BC4CB6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
